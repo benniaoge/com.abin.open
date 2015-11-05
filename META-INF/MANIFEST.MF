@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GotoHere
+Bundle-SymbolicName: com.abin.open;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.abin.open.Activator
+Bundle-Vendor: ABIN
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.9.1",
+ org.eclipse.jdt.core;bundle-version="3.10.2",
+ org.eclipse.jface.text;bundle-version="3.9.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

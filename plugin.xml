@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.popupMenus">
+		<objectContribution objectClass="org.eclipse.core.runtime.IAdaptable" id="com.abin.openItContribution">
+			<action label="Open It" 
+					menubarPath="additions" 
+					class="com.abin.open.actions.OpenItAction"
+					id="com.abin.openItActition">
+			</action>
+		</objectContribution>
+	</extension>
+
+</plugin>
