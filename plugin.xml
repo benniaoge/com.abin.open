@@ -3,7 +3,7 @@
 <plugin>
 	<extension point="org.eclipse.ui.popupMenus">
 		<objectContribution objectClass="org.eclipse.core.runtime.IAdaptable" id="com.abin.openItContribution">
-			<action label="Open It" 
+			<action label="Go to here" 
 					menubarPath="additions" 
 					class="com.abin.open.actions.OpenItAction"
 					id="com.abin.openItActition">
